@@ -13,8 +13,6 @@ public class StringDuplication {
         n = input.nextInt();
 
         printNtimes(s,n);
-
-
     }
 
     public static void printNtimes(String strIn, int numbIn){

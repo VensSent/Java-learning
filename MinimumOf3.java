@@ -4,13 +4,20 @@
 переменных
 
 *******************************************************************************/
+import java.util.Scanner;
 
 public class MinimumOf3 {
     public static void main(String[] args)
     {
-        int a = 3, b = 10, c = 32;
+        int a, b, c;
         int minimum;
-        
+
+        Scanner input = new Scanner(System.in);
+
+        a = input.nextInt();
+        b = input.nextInt();
+        c = input.nextInt();
+
         minimum = min(a,b,c);
         System.out.print(minimum);
       
