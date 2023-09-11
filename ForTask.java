@@ -27,28 +27,43 @@ class Main {
     static Scanner input = new Scanner(System.in);
  
     public static void main(String[] args) {
-    //1
-    for (int i=0;i<100;){
-        i += 2;
-             
-        System.out.print(i + " ");
-    } 
-    System.out.println();    
-    //2
-    int m = input.nextInt();
-    int n = input.nextInt();
-    
-    for (int i=0; i<m;i++){
-        for (int j=0; j<n;j++){
-            System.out.print(8);
-            }
-        System.out.println();
-        }
+        //1
+        for (int i=0;i<100;){
+            i += 2;
+                 
+            System.out.print(i + " ");
+        } 
+        System.out.println();    
+        //2
+        int m = input.nextInt();
+        int n = input.nextInt();
         
-    System.out.println();
-    
-    //3
-    
+        for (int i=0; i<m;i++){
+            for (int j=0; j<n;j++){
+                System.out.print(8);
+                }
+            System.out.println();
+            }
+            
+        System.out.println();
+        
+        //3
+        for(int i=0; i<=10;i++){
+            for(int j=0; j<i;j++){
+                System.out.print(8);
+            }
+            System.out.println();
+        }
+        System.out.println();
+        
+        //4
+        for(int i=0; i<10;i++){
+            System.out.println(8);
+        }
+        System.out.println();
+        for(int i=0; i<10;i++){
+            System.out.print(8);
+        }
     }
  
 }
