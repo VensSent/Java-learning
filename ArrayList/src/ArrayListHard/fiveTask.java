@@ -13,14 +13,20 @@ import java.util.ArrayList;
 public class Main
 {
 	public static void main(String[] args) {
-	    int i;
 	 
 		ArrayList<String> words = new ArrayList<>();
 		words.add("a");
 		words.add("b");
 		words.add("c");
 		
-		for (i=0;i<words.size();i++){
+		doubleValues(words);
+
+	}
+	
+	public static void doubleValues(ArrayList<String> words){
+	    int i;
+	    
+	    for (i=0;i<words.size();i++){
 		    words.add(i,words.get(i));
 		    i++;
 		}
@@ -28,6 +34,5 @@ public class Main
 		for (i=0;i<words.size();i++){
 		    System.out.print(words.get(i));
 		}
-
 	}
 }
